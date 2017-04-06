@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unifor.dispmoveis.uniforlabs.BlocoActivity">
+
+    <ListView
+        android:id="@+id/lvBloco"
+        android:layout_width="138dp"
+        android:layout_height="360dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="35dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:minHeight="190dp" />
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="138dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/lvBloco"
+        android:layout_toEndOf="@+id/lvBloco"
+        android:layout_alignTop="@+id/lvBloco">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lvBloco"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/lvBloco"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="30dp"
+        android:text="Salas"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

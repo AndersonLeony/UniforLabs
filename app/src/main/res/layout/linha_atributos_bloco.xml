@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linha_atributos_bloco"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="false"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="25dp"
+    tools:context="com.example.leony.usandolistas.LinhaAtributosBlocoActivity"
+    android:background="@drawable/layout_border"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/ln_verSala"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txt_letraBloco"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.42"
+            android:text="D"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txt_numSala"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:text="18"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/img_statusSala"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/circuloverdesemfundo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_verDadosAula"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txt_emAulaProxAula"
+            android:layout_width="76dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:text="Em Aula"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_emAulaProxAula"
+            android:layout_width="41dp"
+            android:layout_height="34dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.77"
+            android:padding="0dp"
+            app:srcCompat="@drawable/icone_graduacao" />
+    </LinearLayout>
+
+</LinearLayout>
