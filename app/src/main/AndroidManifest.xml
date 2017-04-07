@@ -19,7 +19,8 @@
         <activity android:name=".BlocoActivity" />
         <activity android:name="pasta.fragments.em.aula.prox.aula.SalaD18Activity" />
         <activity android:name=".LinhaAtributosBlocoActivity" />
-        <activity android:name="pasta.fragments.em.aula.prox.aula.SalaM35Activity"></activity>
+        <activity android:name="pasta.fragments.em.aula.prox.aula.SalaM35Activity" />
+        <activity android:name=".TesteActivity"></activity>
     </application>
 
 </manifest>
